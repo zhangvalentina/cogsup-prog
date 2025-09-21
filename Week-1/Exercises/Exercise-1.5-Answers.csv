@@ -1,0 +1,76 @@
+section,code,answer1,answer2,answer3,correct
+Dictionaries,"d = {'a': 1, 'b': 2, 'c': 5}
+d['a']",1,,,1
+Dictionaries,"d = {'a': 1, 'b': 2, 'c': 5}
+d['d']", ,error,,1
+Dictionaries,"d = {}
+for k in ['b', 'a', 'c']:
+    d[k] = k.upper()
+d","{'B', 'A', 'C'}","{'b':'B', 'a':'A','c':'C'}",,1
+Dictionaries,"d = {}
+for k in ['b', 'a', 'c']:
+    d[k] = k.upper()
+list(d)","['b','B', 'a','A','c','C']","['B','A','C']","[{'b':'B', 'a':'A','c':'C'}]",0
+Dictionaries,"a = {'x': 1, 'y': 2}
+b = {'y': 2, 'x': 1}
+a == b",False,True,,1
+Dictionaries,"a = {'x': 1, 'y': 2}
+b = {'y': 2, 'x': 1}
+list(a) == list(b)",False,,,1
+Dictionaries,"responses = 'ctctt'
+mapping = {'c': 'chair', 't': 'table'}
+[mapping[r] for r in responses]","['chair','table','chair','table','table']",,,1
+Dictionaries,"mapping = {'c':'chair', 't':'table'}
+mapping['chair']",c,['c'],{c},0
+Dictionaries,"responses = ['c','c','t','c','t','t']
+counts = {'c': 0, 't': 0}
+for r in responses:
+    counts[r] += 1
+counts","[1, 2, 3, 4, 5, 6]",error,"[1, 2, 1, 3, 2, 3]",0
+Dictionaries,"rts = {'trial1': 300, 'trial2': 200}
+rts['trial3'] = 450
+len(rts)",3,,,1
+Dictionaries,"rts = {'trial1': 300, 'trial2': 200}
+rts['trial3'] = 450
+sum(rts.values())",[950,950,,1
+Dictionaries,"conds = {'A': 'congruent', 'B': 'incongruent'}
+seq = ['A', 'B', 'A']
+[conds[c] for c in seq if c == 'B']",[1],"[False, True]","['A', 'B', 'A']",0
+Dictionaries,"trials = [{'stim': 'face'}, {'stim': 'object'}]
+for i, t in enumerate(trials, start=1):
+    t['id'] = i
+trials",,,,0
+Dictionaries,"trial = {'stimulus': {'type': 'shape', 'name': 'circle'}}
+trial['stimulus']['name']",['circle'],'circle',circle,1
+Dictionaries,"mapping = {'c':'chair','t':'table'}
+trials = [{'resp': 'c'}, {'resp': 't'}]
+for t in trials:
+    t['resp'] = mapping[t['resp']]
+trials","[{'resp':'chair'}, {'resp':'table'}]",,,1
+Dictionaries,"trial = {'stim': 'circle', 'resp': 'c', 'rt': 500}
+[ (k, v) for k, v in trial.items() ]","[(0,'circle'), (1,'c'), (2,500)]","['circle', 'c', 500]",,0
+Dictionaries,"responses = ['c','t','c','c','t']
+freq = {}
+for r in responses:
+    freq[r] = freq.get(r, 0) + 1
+freq","{'c': 3, 't': 2}",,,1
+Dictionaries,"pairs = [('A','circle'), ('B','square'), ('A','ellipse')]
+conds = {}
+for cond, stim in pairs:
+    conds.setdefault(cond, []).append(stim)
+conds","{'A':['circle','ellipse'], 'B':['square']}",,,1
+Dictionaries,"mapping1 = {'c': 'chair', 't': 'table'}
+mapping2 = {v:k for k, v in mapping1.items()}
+mapping2['chair']",['c'],'c',c,1
+Dictionaries,"trials = [{'rt': 350},{'rt': 500},{'rt': 200}]
+[f['rt'] for f in trials if f['rt'] < 400]","[350, 200]",,,1
+Dictionaries,"correct = {'trial1': 'c', 'trial2': 't'}
+resp = {'trial1': 'c', 'trial2': 'c'}
+
+acc = {}
+for k in correct:
+    acc[k] = int(correct[k] == resp[k])
+acc","{'trail1': 1, 'trial2': 0}","{'trail1': 1, 'trial2': 0}",,0
+Dictionaries,"a = {'stim': 'circle'}
+b = {'rt': 400}
+a | b",False,error,"{'stim': 'circle', 'rt': 400}",1
