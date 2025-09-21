@@ -1,0 +1,17 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Sep 21 2025 23:09:13
+#sha1: b87ab5
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2778,design,log,
+#design: #exp: Two squares
+#design: block_cnt,block_id,trial_cnt,trial_id
+2778,design,logged,
+2778,Experiment,started
+2780,Stimulus,presented,0
+2782,Stimulus,presented,1
+3794,stderr,received,'Traceback (most recent call last):'
+3795,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-2\\Exercises\\launching.py", line 25, in <module>\n    left_dx = (red_end - red_start) / steps # calculate the single  movement for red square\n               ^^^^^^^'
+3795,stderr,received,"NameError: name 'red_end' is not defined. Did you mean: 'left_end'?"
