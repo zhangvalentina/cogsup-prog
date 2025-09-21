@@ -14,12 +14,11 @@ Task:
 Write a for-loop that prints out the following line 20 times:
  All work and no play makes Jack a dull boy.
 """
-
 print("Exercise 2.1")
 
 pass
-
-print("---")
+for i in range(20):
+  print("All work and no play makes Jack a dull boy.")
 """
 Exercise 2.2
 
@@ -31,8 +30,8 @@ Write a for-loop that prints out the numbers from 0 up to 5 inclusive.
 print("Exercise 2.2")
 
 pass
-
-print("---")
+for i in range(6):
+  print(i)
 
 
 """
@@ -47,7 +46,9 @@ print("Exercise 2.3")
 
 pass
 
-print("---")
+for i in range(2,9):
+  if i%2 == 0:
+    print(i)
 
 """
 Exercise 2.4
@@ -60,8 +61,8 @@ Now write another loop to print 9 through 0 (i.e., backwards).
 print("Exercise 2.4")
 
 pass
-
-print("---")
+for i in range(9, -1, -1):
+  print(i)
 
 """
 Exercise 2.5
@@ -78,6 +79,8 @@ Write code that prints out the following sequence:
  zzzzzzz
  zzzzzzzz
 """
+for i in range(1,9):
+  print('z'*i)
 
 print("Exercise 2.5")
 
@@ -103,6 +106,8 @@ which is why the script moves automatically to a new line after the execution
 of a simple print-statement.
 ------
 """
+for i in range(1,6):
+  print('12345'[:i])
 
 print("Exercise 2.6")
 
@@ -135,7 +140,13 @@ your code needs to carry out for a certain value of rows.
 print("Exercise 2.7")
 
 rows = 5
-pass
+for i in range(1, rows+1):
+  for q in range(rows - i):
+    print(' ', end ='')
+  for k in range(2*i - 1):
+    print('o', end='')
+  print()
+
 
 print("---")
 
@@ -165,6 +176,9 @@ on how to align the numbers.
 
 print("Exercise 2.8")
 
-pass
+for i in range(1,11):
+  for q in range(1,11):
+    print(i*q, end=' ')
+  print()
 
 print("---")
