@@ -1,0 +1,15 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Mon Sep 22 2025 00:09:18
+#sha1: 955916
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1181,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x000001BE6C07C360>'
+1182,stderr,received,'Traceback (most recent call last):'
+1182,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+1182,stderr,received,'    if self._compression_filename is not None:'
+1183,stderr,received,"AttributeError: 'Line' object has no attribute '_compression_filename'"
+1184,stderr,received,'Traceback (most recent call last):'
+1184,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-2\\Exercises\\labeled_shapes.py", line 18, in <module>\n    line_triangle = stimuli.Line(length=line_length, orientation=90, thickness=3, colour=(255,255,255))'
+1185,stderr,received,"TypeError: Line.__init__() got an unexpected keyword argument 'length'"

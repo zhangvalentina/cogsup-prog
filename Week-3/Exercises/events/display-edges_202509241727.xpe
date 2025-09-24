@@ -1,0 +1,10 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Wed Sep 24 2025 17:27:12
+#sha1: f0888d
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+7605,stderr,received,'Traceback (most recent call last):'
+7605,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-3\\Exercises\\display-edges.py", line 9, in <module>\n    square = stimuli.Rectangular(size = (50, 50), colour = (255, 0, 0), position=(100, 50))\n             ^^^^^^^^^^^^^^^^^^^'
+7606,stderr,received,"AttributeError: module 'expyriment.stimuli' has no attribute 'Rectangular'. Did you mean: 'Rectangle'?"

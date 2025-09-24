@@ -1,0 +1,10 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Mon Sep 22 2025 00:04:52
+#sha1: 383a28
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1030,stderr,received,'Traceback (most recent call last):'
+1031,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-2\\Exercises\\labeled_shapes.py", line 7, in <module>\n    triangle = stimuli.Polygon(points=[(-25, 25), (25, 25), (0, -25)], colour=(128,0,128))\n               ^^^^^^^^^^^^^^^'
+1031,stderr,received,"AttributeError: module 'expyriment.stimuli' has no attribute 'Polygon'"
