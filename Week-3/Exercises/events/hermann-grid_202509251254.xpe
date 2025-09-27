@@ -1,0 +1,11 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 12:54:32
+#sha1: b3d9da
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+826,stderr,received,'Traceback (most recent call last):'
+826,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-3\\Exercises\\hermann-grid.py", line 28, in <module>\n    hermann(50, 30, 5, 5, (0,0,0), (128,128,128))\n    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+826,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-3\\Exercises\\hermann-grid.py", line 8, in hermann\n    exp.start()\n    ^^^^^^^^^'
+826,stderr,received,"AttributeError: 'Experiment' object has no attribute 'start'"

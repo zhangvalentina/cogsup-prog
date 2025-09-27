@@ -1,0 +1,39 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sat Sep 27 2025 09:31:04
+#sha1: d63250
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11208,design,log,
+#design: #exp: hermann-grid
+#design: block_cnt,block_id,trial_cnt,trial_id
+11208,design,logged,
+11209,Experiment,started
+11210,Stimulus,presented,0
+11212,Stimulus,presented,1
+11214,Stimulus,presented,2
+11216,Stimulus,presented,3
+11218,Stimulus,presented,4
+11220,Stimulus,presented,5
+11222,Stimulus,presented,6
+11224,Stimulus,presented,7
+11226,Stimulus,presented,8
+11228,Stimulus,presented,9
+11230,Stimulus,presented,10
+11232,Stimulus,presented,11
+11234,Stimulus,presented,12
+11236,Stimulus,presented,13
+11238,Stimulus,presented,14
+11241,Stimulus,presented,15
+11243,Stimulus,presented,16
+11245,Stimulus,presented,17
+11248,Stimulus,presented,18
+11250,Stimulus,presented,19
+11252,Stimulus,presented,20
+11254,Stimulus,presented,21
+11256,Stimulus,presented,22
+11258,Stimulus,presented,23
+11260,Stimulus,presented,24
+16302,Experiment,ended
+16334,Stimulus,presented,25

@@ -1,0 +1,17 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 09:21:27
+#sha1: a1e313
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3027,design,log,
+#design: #exp: display-edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+3027,design,logged,
+3027,Experiment,started
+3029,Stimulus,presented,0
+3032,Stimulus,presented,1
+3035,Stimulus,presented,2
+3038,Stimulus,presented,3
+5048,Experiment,ended

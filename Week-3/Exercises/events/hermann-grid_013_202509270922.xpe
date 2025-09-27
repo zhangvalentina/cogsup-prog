@@ -1,0 +1,16 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sat Sep 27 2025 09:22:00
+#sha1: 60ab05
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10713,design,log,
+#design: #exp: hermann-grid
+#design: block_cnt,block_id,trial_cnt,trial_id
+10713,design,logged,
+10713,Experiment,started
+10714,stderr,received,'Traceback (most recent call last):'
+10715,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-3\\Exercises\\hermann-grid.py", line 31, in <module>\n    hermann(sq_size=50, sp_bt_sq=30, n_row=5,n_col= 5, sq_colour=(0,0,0), back_colour=(128,128,128))\n    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+10715,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-3\\Exercises\\hermann-grid.py", line 8, in hermann\n    exp.screen.clear(back_colour)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^'
+10716,stderr,received,'TypeError: Screen.clear() takes 1 positional argument but 2 were given'
