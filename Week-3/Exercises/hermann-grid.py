@@ -27,5 +27,5 @@ def hermann(sq_size, sp_bt_sq, n_row, n_col, sq_colour, back_colour):
     exp.clock.wait(5000)
     control.end()
 
-# control.set_develop_mode()
+control.set_develop_mode()
 hermann(sq_size=50, sp_bt_sq=30, n_row=10,n_col= 10, sq_colour=(0,0,0), back_colour=(225,225,225))

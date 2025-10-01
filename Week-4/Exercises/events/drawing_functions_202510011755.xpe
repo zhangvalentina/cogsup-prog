@@ -1,0 +1,11 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Wed Oct 01 2025 17:55:27
+#sha1: 3ef220
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1319,stderr,received,'Traceback (most recent call last):'
+1320,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\drawing_functions.py", line 51, in <module>\n    present_for(stims, 500)\n    ~~~~~~~~~~~^^^^^^^^^^^^'
+1320,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\drawing_functions.py", line 26, in present_for\n    stim.present(clear = False, update = True, time = t - duration_draw)\n                                                          ^^^^^^^^^^^^^'
+1320,stderr,received,"NameError: name 'duration_draw' is not defined"
