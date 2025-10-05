@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Thu Oct 02 2025 21:16:27
+#sha1: 294348
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1534,Stimulus,presented,0
+1535,Stimulus,presented,1
+1537,stderr,received,'Traceback (most recent call last):'
+1538,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\drawing_functions.py", line 52, in <module>\n    present_for(stims, 500)\n    ~~~~~~~~~~~^^^^^^^^^^^^'
+1539,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\drawing_functions.py", line 26, in present_for\n    stim[-1].present(clear = False, update = True)\n    ~~~~^^^^'
+1539,stderr,received,"TypeError: 'Rectangle' object is not subscriptable"

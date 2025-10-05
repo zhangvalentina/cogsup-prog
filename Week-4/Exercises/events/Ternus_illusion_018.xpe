@@ -1,0 +1,39 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Oct 05 2025 09:34:26
+#sha1: 57d8e2
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1821,design,log,
+#design: #exp: Ternus_illusion
+#design: block_cnt,block_id,trial_cnt,trial_id
+1821,design,logged,
+1821,Experiment,started
+1860,Stimulus,presented,3
+2093,Stimulus,presented,5
+2149,Stimulus,presented,4
+2369,Stimulus,presented,5
+2424,Stimulus,presented,3
+2645,Stimulus,presented,5
+2699,Stimulus,presented,4
+2919,Stimulus,presented,5
+2974,Stimulus,presented,3
+3192,Stimulus,presented,5
+3233,Keyboard,received,32,check
+3251,Stimulus,presented,3
+3469,Stimulus,presented,6
+3585,Stimulus,presented,4
+3808,Stimulus,presented,6
+3926,Stimulus,presented,3
+4146,Stimulus,presented,6
+4262,Stimulus,presented,4
+4481,Stimulus,presented,6
+4596,Stimulus,presented,3
+4814,Stimulus,presented,6
+4928,Stimulus,presented,4
+5148,Stimulus,presented,6
+5249,Keyboard,received,32,check
+5250,stderr,received,'Traceback (most recent call last):'
+5251,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\Ternus_illusion.py", line 77, in <module>\n    present_for(canvas_left, canvas_right, ISI = 50, colour = True)\n    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+5251,stderr,received,"TypeError: present_for() got an unexpected keyword argument 'colour'"

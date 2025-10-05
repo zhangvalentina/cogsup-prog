@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Oct 05 2025 08:01:48
+#sha1: 2d7e1b
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+7042,design,log,
+#design: #exp: Ternus_illusion
+#design: block_cnt,block_id,trial_cnt,trial_id
+7043,design,logged,
+7043,Experiment,started
+7043,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x0000026A5DD0C5E0>'
+7043,stderr,received,'Traceback (most recent call last):'
+7043,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+7045,stderr,received,'    if self._compression_filename is not None:'
+7045,stderr,received,"AttributeError: 'Circle' object has no attribute '_compression_filename'"
+7046,stderr,received,'Traceback (most recent call last):'
+7047,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\Ternus_illusion.py", line 37, in <module>\n    make_circles(2)\n    ~~~~~~~~~~~~^^^'
+7048,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\Ternus_illusion.py", line 11, in make_circles\n    circle_left = stimuli.Circle(radius = radius, color = (0,0,0), position = (0, (0 - radius - 10)))'
+7049,stderr,received,"TypeError: Circle.__init__() got an unexpected keyword argument 'color'. Did you mean 'colour'?"

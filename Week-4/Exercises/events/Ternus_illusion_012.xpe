@@ -1,0 +1,71 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Oct 05 2025 08:53:44
+#sha1: 396c19
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2124,design,log,
+#design: #exp: Ternus_illusion
+#design: block_cnt,block_id,trial_cnt,trial_id
+2124,design,logged,
+2124,Experiment,started
+2157,Stimulus,presented,3
+2376,Stimulus,presented,5
+2432,Stimulus,presented,4
+2652,Stimulus,presented,5
+2710,Stimulus,presented,3
+2930,Stimulus,presented,5
+3007,Stimulus,presented,4
+3240,Stimulus,presented,5
+3297,Stimulus,presented,3
+3515,Stimulus,presented,5
+3571,Stimulus,presented,4
+3792,Stimulus,presented,5
+3848,Stimulus,presented,3
+4066,Stimulus,presented,5
+4121,Stimulus,presented,4
+4342,Stimulus,presented,5
+4403,Stimulus,presented,3
+4623,Stimulus,presented,5
+4680,Stimulus,presented,4
+4897,Stimulus,presented,5
+4952,Stimulus,presented,3
+5171,Stimulus,presented,5
+5238,Stimulus,presented,4
+5473,Stimulus,presented,5
+5529,Stimulus,presented,3
+5747,Stimulus,presented,5
+5802,Stimulus,presented,4
+6023,Stimulus,presented,5
+6079,Stimulus,presented,3
+6301,Stimulus,presented,5
+6372,Stimulus,presented,4
+6607,Stimulus,presented,5
+6663,Stimulus,presented,3
+6881,Stimulus,presented,5
+6935,Stimulus,presented,4
+7156,Stimulus,presented,5
+7213,Stimulus,presented,3
+7432,Stimulus,presented,5
+7487,Stimulus,presented,4
+7706,Stimulus,presented,5
+7765,Stimulus,presented,3
+7989,Stimulus,presented,5
+8056,Stimulus,presented,4
+8277,Stimulus,presented,5
+8339,Stimulus,presented,3
+8575,Stimulus,presented,5
+8641,Stimulus,presented,4
+8874,Stimulus,presented,5
+8940,Stimulus,presented,3
+9174,Stimulus,presented,5
+9239,Stimulus,presented,4
+9474,Stimulus,presented,5
+9540,Stimulus,presented,3
+9773,Stimulus,presented,5
+9839,Stimulus,presented,4
+10059,Stimulus,presented,5
+10114,Stimulus,presented,3
+10332,Stimulus,presented,5
+10373,Keyboard,received,32,check

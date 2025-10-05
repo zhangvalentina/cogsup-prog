@@ -22,7 +22,8 @@ def timed_draw(stims, canvas):
 
 def present_for(stims, duration_draw, t=1000):
     for stim in stims:
-        stim.present(clear = False, update = True, time)
+        stim.present(clear = False, update = True)
+    exp.clock.wait(t-duration_draw)    
     pass
 
 

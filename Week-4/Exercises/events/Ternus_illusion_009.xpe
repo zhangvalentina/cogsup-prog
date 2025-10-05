@@ -1,0 +1,15 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Oct 05 2025 08:42:09
+#sha1: 4344be
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='11', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2036,design,log,
+#design: #exp: Ternus_illusion
+#design: block_cnt,block_id,trial_cnt,trial_id
+2036,design,logged,
+2036,Experiment,started
+2045,stderr,received,'Traceback (most recent call last):'
+2045,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\Ternus_illusion.py", line 58, in <module>\n    present_for()\n    ~~~~~~~~~~~^^'
+2045,stderr,received,"TypeError: present_for() missing 2 required positional arguments: 'canvas_left' and 'canvas_right'"
