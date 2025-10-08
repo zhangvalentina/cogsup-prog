@@ -1,30 +1,42 @@
 from expyriment import design, control, stimuli
 import random
 
+FPS = 60
+MSPF = 1000/ FPS
+
+def to_frames(t):
+    return t / MSPF
+
+def to_time(num_frames):
+    return num_frames* MSPF
+
 def load(stims):
     for stim in stims:
         stim.preload()
     pass
 
-def timed_draw(stims, canvas):
+def timed_draw(stims):
     t0 = exp.clock.time()
-    canvas.preload()
+
+    exp.screen.clear()
 
     for stim in stims:
-        stim.plot(canvas)
+        stim.present(clear= False, update = False)
 
-    canvas.present()
-    t1 = exp.clock.time()
-    duration_draw = (t1 - t0)/1000
+    exp.screen.update()
 
-    return duration_draw
+    elapsed = exp.clock.time() - t0
+
+    return elapsed
     # return the time it took to draw
 
-def present_for(stims, duration_draw, t=1000):
-    for stim in stims:
-        stim.present(clear = False, update = True)
-    exp.clock.wait(t-duration_draw)    
-    pass
+def present_for(stims, num_frames):
+    if num_frames == 0:
+        return
+    dt = timed_draw(stims)
+    if dt > 0 :
+        t = to_time(num_frames)
+        exp.clock.wait(t-dt)
 
 
 """ Test functions """
