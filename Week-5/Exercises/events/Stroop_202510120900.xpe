@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 09:00:23
+#sha1: c04924
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1030,stderr,received,'Traceback (most recent call last):'
+1031,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\Stroop.py", line 13, in <module>'
+1031,stderr,received,'    C_ORANGE = Colour(255,155,0)'
+1032,stderr,received,'               ^^^^^^^^^^^^^^^^^'
+1032,stderr,received,'TypeError: Colour.__init__() takes 2 positional arguments but 4 were given'

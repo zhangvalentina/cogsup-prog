@@ -1,0 +1,32 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 08:57:19
+#sha1: b16b21
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1123,Stimulus,presented,0
+1952,Keyboard,received,32,wait
+3544,design,log,
+#design: #exp: Stroop effect
+#design: #dvn: trial block,trial number,trial type,word meaning,text color,RTs,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+3544,design,logged,
+3544,Experiment,started
+3554,Stimulus,presented,1
+4067,Stimulus,presented,2
+8168,Keyboard,received,115,wait
+8187,Stimulus,presented,3
+9197,Stimulus,presented,4
+9720,Stimulus,presented,5
+11376,Keyboard,received,107,wait
+11403,Stimulus,presented,6
+12404,stderr,received,'Traceback (most recent call last):'
+12405,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\Stroop.py", line 37, in <module>'
+12405,stderr,received,"    if present_word == 'blue' and present_color == C_BLUE:"
+12406,stderr,received,'                                  ^^^^^^^^^^^^^^^^^^^^^^^'
+12406,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\misc\\_colour.py", line 353, in __eq__'
+12496,stderr,received,'    return self._rgb == other._rgb'
+12497,stderr,received,'                        ^^^^^^^^^^'
+12497,stderr,received,"AttributeError: 'tuple' object has no attribute '_rgb'"
+12544,Data,saved

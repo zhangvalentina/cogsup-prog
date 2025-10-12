@@ -1,0 +1,24 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 21:14:00
+#sha1: 15353e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+56189,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+56189,design,logged,
+56189,Experiment,started
+56207,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x00000142AF28A700>'
+56207,stderr,received,'Traceback (most recent call last):'
+56208,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+56209,stderr,received,'    if self._compression_filename is not None:'
+56209,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+56209,stderr,received,"AttributeError: 'TextScreen' object has no attribute '_compression_filename'"
+56209,stderr,received,'Traceback (most recent call last):'
+56209,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 58, in <module>'
+56210,stderr,received,'    run_trial()'
+56210,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 21, in run_trial'
+56211,stderr,received,"    stimuli.TextScreen(text = 'To find your blind spot, please cover your left eye and fixate on the cross with your right eye. You can adjust the position of the cicle using arrows, until you cannot see the circle. When you are done, you can press Spacebar to move on. Good luck!')"
+56211,stderr,received,"TypeError: TextScreen.__init__() missing 1 required positional argument: 'heading'"

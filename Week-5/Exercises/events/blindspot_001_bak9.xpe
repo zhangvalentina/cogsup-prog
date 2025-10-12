@@ -1,0 +1,23 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 21:31:05
+#sha1: 399ddb
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1710,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1710,design,logged,
+1710,Experiment,started
+1764,Stimulus,presented,1
+11795,Stimulus,presented,2
+15308,Keyboard,received,108,wait
+15309,Stimulus,presented,0
+15309,stderr,received,'Traceback (most recent call last):'
+15309,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 64, in <module>'
+15311,stderr,received,'    run_trial()'
+15311,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 39, in run_trial'
+15312,stderr,received,'    circle.present(clear = False, update = True)'
+15312,stderr,received,'    ^^^^^^'
+15312,stderr,received,"UnboundLocalError: cannot access local variable 'circle' where it is not associated with a value"

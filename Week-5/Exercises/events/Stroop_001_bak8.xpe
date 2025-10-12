@@ -1,0 +1,42 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 09:24:02
+#sha1: 9ef9a7
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1373,Stimulus,presented,0
+2679,Keyboard,received,32,wait
+3594,design,log,
+#design: #exp: Stroop effect
+#design: #dvn: trial block,trial number,trial type,word meaning,text color,RTs,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+3594,design,logged,
+3594,Experiment,started
+3607,Stimulus,presented,2
+4120,Stimulus,presented,3
+5406,Keyboard,received,115,wait
+5422,Stimulus,presented,4
+6432,Stimulus,presented,5
+6953,Stimulus,presented,6
+7401,Keyboard,received,107,wait
+7419,Stimulus,presented,7
+8435,Stimulus,presented,8
+8953,Stimulus,presented,9
+9819,Keyboard,received,107,wait
+9831,Stimulus,presented,10
+10851,Stimulus,presented,11
+11365,Stimulus,presented,12
+11840,Keyboard,received,107,wait
+11853,Stimulus,presented,13
+12863,Stimulus,presented,14
+13376,Stimulus,presented,15
+13678,Keyboard,received,107,wait
+13688,Stimulus,presented,16
+14696,Stimulus,presented,17
+15209,Stimulus,presented,18
+15853,Experiment,paused
+15867,Stimulus,presented,19
+16861,Keyboard,received,y,wait_char
+16861,Experiment,ended
+16911,Data,saved

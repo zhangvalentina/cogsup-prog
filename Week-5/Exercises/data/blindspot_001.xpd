@@ -1,11 +1,39 @@
-#Expyriment 1.0.0 (Python 3.13.7), .xpd-file, coding: cp1252
-#date: Wed Oct 08 2025 17:26:53
+#Expyriment 1.0.0 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Sat Oct 11 2025 22:25:56
 #--EXPERIMENT INFO
 #e mainfile: blindspot.py
-#e sha1: d06825
+#e sha1: d7ce87
 #e modules: 
 #e Experiment: Blindspot
 #e no between subject factors
 #--SUBJECT INFO
 #s id: 1
-subject_id,
+subject_id,tested_eye,circle radius,key_presscircle_x,circle_y
+1,R,75,right,300,0
+1,R,75,left,296,0
+1,R,70,smaller,296,0
+1,R,65,smaller,296,0
+1,R,60,smaller,296,0
+1,R,60,up,296,4
+1,R,60,up,296,8
+1,R,60,left,292,8
+1,R,60,left,288,8
+1,R,60,up,288,12
+1,R,60,left,284,12
+1,R,60,up,284,16
+1,R,60,up,284,20
+1,R,60,left,280,20
+1,R,60,down,280,16
+1,R,60,left,276,16
+1,R,65,larger,276,16
+1,R,70,larger,276,16
+1,R,75,larger,276,16
+1,R,75,left,272,16
+1,R,75,right,276,16
+1,R,75,left,272,16
+1,R,75,left,268,16
+1,R,75,left,264,16
+1,R,75,left,260,16
+1,R,75,left,256,16
+1,R,75,left,252,16
+1,R,75,left,248,16

@@ -1,0 +1,20 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 09:10:49
+#sha1: f81ddb
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1089,Stimulus,presented,0
+4805,Keyboard,received,32,wait
+5361,design,log,
+#design: #exp: Stroop effect
+#design: #dvn: trial block,trial number,trial type,word meaning,text color,RTs,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+5361,design,logged,
+5361,Experiment,started
+5363,stderr,received,'Traceback (most recent call last):'
+5363,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\Stroop.py", line 29, in <module>'
+5364,stderr,received,'    for trial in range(1, trial_n / block_n + 1 ):'
+5364,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+5365,stderr,received,"TypeError: 'float' object cannot be interpreted as an integer"
