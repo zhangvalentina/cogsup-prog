@@ -1,0 +1,20 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Oct 15 2025 16:54:10
+#sha1: 3a1dfa
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2666,design,log,
+#design: #exp: Stroop
+#design: #dvn: block_cnt,trial_cnt,trial_type,word,color,RT,correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+2666,design,logged,
+2666,Experiment,started
+2730,Stimulus,presented,19
+3847,Keyboard,received,32,wait
+3848,stderr,received,'Traceback (most recent call last):'
+3848,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-6\\Week-6\\Exercises\\stroop.py", line 83, in <module>'
+3849,stderr,received,"    color = word if trial_type == 'match' else random.choice([c for c in COLORS is c != word])"
+3849,stderr,received,'                                                                                   ^'
+3850,stderr,received,"NameError: name 'c' is not defined"

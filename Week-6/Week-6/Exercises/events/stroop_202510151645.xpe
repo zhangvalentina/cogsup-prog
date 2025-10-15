@@ -1,0 +1,28 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Oct 15 2025 16:45:44
+#sha1: 8b0a7c
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1811,stderr,received,'Traceback (most recent call last):'
+1811,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-6\\Week-6\\Exercises\\stroop.py", line 58, in <module>'
+1812,stderr,received,'    stims = stims = {w: {c: stimuli.TextLine(w, text_colour=c) for c in COLORS} for w in COLORS}'
+1813,stderr,received,'                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+1814,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-6\\Week-6\\Exercises\\stroop.py", line 58, in <dictcomp>'
+1815,stderr,received,'    stims = stims = {w: {c: stimuli.TextLine(w, text_colour=c) for c in COLORS} for w in COLORS}'
+1815,stderr,received,'                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+1815,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-6\\Week-6\\Exercises\\stroop.py", line 58, in <dictcomp>'
+1817,stderr,received,'    stims = stims = {w: {c: stimuli.TextLine(w, text_colour=c) for c in COLORS} for w in COLORS}'
+1818,stderr,received,'                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+1818,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\stimuli\\_textline.py", line 71, in __init__'
+1872,stderr,received,'    Visual.__init__(self, position, log_comment=text)'
+1876,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 235, in __init__'
+1921,stderr,received,'    Stimulus.__init__(self, log_comment)'
+1925,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\stimuli\\_stimulus.py", line 46, in __init__'
+1958,stderr,received,'    log_txt = "{0},{1}".format(log_txt, bytes_to_unicode(log_comment))'
+1964,stderr,received,'                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+1964,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\misc\\_miscellaneous.py", line 211, in bytes_to_unicode'
+2034,stderr,received,'    u = s.decode(LOCALE_ENC)'
+2041,stderr,received,'        ^^^^^^^^'
+2041,stderr,received,"AttributeError: 'tuple' object has no attribute 'decode'"
