@@ -1,0 +1,34 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Sun Oct 19 2025 13:34:15
+#sha1: 4a22a1
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2020,design,log,
+#design: #exp: Stroop
+#design: #dvn: block_cnt,trial_cnt,trial_type,word,color,RT,correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+2020,design,logged,
+2020,Experiment,started
+2068,Stimulus,presented,19
+2660,Keyboard,received,32,wait
+2661,Stimulus,presented,0
+3167,Stimulus,presented,8
+5311,Keyboard,received,102,wait
+5312,Stimulus,presented,17
+6312,Stimulus,presented,0
+6817,Stimulus,presented,4
+8982,Keyboard,received,102,wait
+8983,Stimulus,presented,17
+9982,Stimulus,presented,0
+10487,Stimulus,presented,6
+18928,Keyboard,received,102,wait
+18929,Stimulus,presented,18
+19929,Stimulus,presented,0
+20433,Stimulus,presented,4
+21265,Experiment,paused
+21283,Stimulus,presented,20
+22258,Keyboard,received,y,wait_char
+22258,Experiment,ended
+22309,Data,saved

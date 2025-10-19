@@ -1,0 +1,28 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Sun Oct 19 2025 15:30:18
+#--EXPERIMENT INFO
+#e mainfile: stroop_balanced.py
+#e sha1: 8c79d0
+#e modules: 
+#e Experiment: Stroop
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,block_cnt,trial_cnt,word,color,RT,correct
+1,1,1,red,green,1132,False
+1,1,2,green,red,262,True
+1,1,3,orange,blue,192,False
+1,1,4,red,green,145,False
+1,1,5,orange,blue,162,False
+1,1,6,blue,red,110,True
+1,1,7,orange,orange,112,False
+1,1,8,red,green,159,False
+1,1,9,green,green,154,False
+1,1,10,orange,orange,103,False
+1,1,11,orange,red,240,True
+1,1,12,green,blue,157,False
+1,1,13,blue,blue,113,False
+1,1,14,green,red,3,True
+1,1,15,red,orange,120,False
+1,1,16,blue,orange,139,False
+1,2,1,red,orange,433,False

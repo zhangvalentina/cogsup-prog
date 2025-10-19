@@ -1,0 +1,63 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Sun Oct 19 2025 12:48:57
+#sha1: 9c4770
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2845,design,log,
+#design: #exp: Stroop
+#design: #dvn: block_cnt,trial_cnt,trial_type,word,color,RT,correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+2845,design,logged,
+2845,Experiment,started
+2883,Stimulus,presented,19
+3793,Keyboard,received,32,wait
+3793,Stimulus,presented,0
+4316,Stimulus,presented,15
+23338,Keyboard,received,102,wait
+23339,Stimulus,presented,17
+24339,Stimulus,presented,0
+24863,Stimulus,presented,6
+25322,Keyboard,received,106,wait
+25323,Stimulus,presented,17
+26363,Stimulus,presented,20
+27881,Keyboard,received,32,wait
+27882,Stimulus,presented,0
+28395,Stimulus,presented,11
+29174,Keyboard,received,102,wait
+29175,Stimulus,presented,18
+30174,Stimulus,presented,0
+30694,Stimulus,presented,9
+31001,Keyboard,received,102,wait
+31001,Stimulus,presented,17
+32028,Stimulus,presented,21
+32768,Keyboard,received,102,wait
+32769,Stimulus,presented,0
+33278,Stimulus,presented,4
+34133,Keyboard,received,102,wait
+34133,Stimulus,presented,17
+35133,Stimulus,presented,0
+35637,Stimulus,presented,11
+36193,Keyboard,received,102,wait
+36194,Stimulus,presented,18
+37227,Stimulus,presented,22
+38323,Keyboard,received,102,wait
+38323,Stimulus,presented,0
+38843,Stimulus,presented,1
+39331,Keyboard,received,102,wait
+39332,Stimulus,presented,18
+40332,Stimulus,presented,0
+40925,Stimulus,presented,1
+505666,stderr,received,'Traceback (most recent call last):'
+505666,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-6\\Week-6\\Exercises\\stroop.py", line 84, in <module>'
+505755,stderr,received,'    run_trial(block, trial, trial_type, word, color)'
+505756,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+505756,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-6\\Week-6\\Exercises\\stroop.py", line 70, in run_trial'
+505757,stderr,received,'    key, rt = exp.keyboard.wait(KEYS)'
+505757,stderr,received,'              ^^^^^^^^^^^^^^^^^^^^^^^'
+505757,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 378, in wait'
+505787,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+505787,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+505787,stderr,received,'KeyboardInterrupt'
+505805,Data,saved

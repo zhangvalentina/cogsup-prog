@@ -1,0 +1,112 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Sun Oct 19 2025 15:30:18
+#sha1: 8c79d0
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+15729,design,log,
+#design: #exp: Stroop
+#design: #dvn: block_cnt,trial_cnt,word,color,RT,correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+15729,design,logged,
+15729,Experiment,started
+15775,Stimulus,presented,19
+16903,Keyboard,received,32,wait
+16904,Stimulus,presented,0
+17425,Stimulus,presented,4
+18558,Keyboard,received,114,wait
+18558,Stimulus,presented,18
+19558,Stimulus,presented,0
+20066,Stimulus,presented,13
+20329,Keyboard,received,114,wait
+20329,Stimulus,presented,17
+21330,Stimulus,presented,0
+21837,Stimulus,presented,7
+22029,Keyboard,received,114,wait
+22029,Stimulus,presented,18
+23029,Stimulus,presented,0
+23534,Stimulus,presented,4
+23679,Keyboard,received,114,wait
+23679,Stimulus,presented,18
+24680,Stimulus,presented,0
+25184,Stimulus,presented,7
+25346,Keyboard,received,114,wait
+25347,Stimulus,presented,18
+26346,Stimulus,presented,0
+26852,Stimulus,presented,9
+26963,Keyboard,received,114,wait
+26963,Stimulus,presented,17
+27963,Stimulus,presented,0
+28472,Stimulus,presented,6
+28585,Keyboard,received,114,wait
+28585,Stimulus,presented,18
+29585,Stimulus,presented,0
+30090,Stimulus,presented,4
+30249,Keyboard,received,114,wait
+30250,Stimulus,presented,18
+31249,Stimulus,presented,0
+31758,Stimulus,presented,16
+31912,Keyboard,received,114,wait
+31913,Stimulus,presented,18
+32913,Stimulus,presented,0
+33417,Stimulus,presented,6
+33520,Keyboard,received,114,wait
+33520,Stimulus,presented,18
+34520,Stimulus,presented,0
+35026,Stimulus,presented,5
+35267,Keyboard,received,114,wait
+35267,Stimulus,presented,17
+36268,Stimulus,presented,0
+36775,Stimulus,presented,15
+36932,Keyboard,received,114,wait
+36933,Stimulus,presented,18
+37933,Stimulus,presented,0
+38439,Stimulus,presented,11
+38553,Keyboard,received,114,wait
+38553,Stimulus,presented,18
+39554,Stimulus,presented,0
+40057,Stimulus,presented,13
+40060,Keyboard,received,114,wait
+40060,Stimulus,presented,17
+41060,Stimulus,presented,0
+41570,Stimulus,presented,2
+41690,Keyboard,received,114,wait
+41691,Stimulus,presented,18
+42691,Stimulus,presented,0
+43198,Stimulus,presented,10
+43338,Keyboard,received,114,wait
+43338,Stimulus,presented,18
+44355,Stimulus,presented,20
+44434,Keyboard,received,114,wait
+44434,Stimulus,presented,0
+44953,Stimulus,presented,2
+45387,Keyboard,received,114,wait
+45387,Stimulus,presented,18
+46387,Stimulus,presented,0
+46890,Stimulus,presented,9
+47949,Experiment,paused
+47960,Stimulus,presented,21
+371623,stderr,received,'Traceback (most recent call last):'
+371623,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-6\\Week-6\\Exercises\\stroop_balanced.py", line 108, in <module>'
+371624,stderr,received,'    run_trial(block, trial, word, color)'
+371624,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-6\\Week-6\\Exercises\\stroop_balanced.py", line 81, in run_trial'
+371625,stderr,received,'    key, rt = exp.keyboard.wait(KEYS)'
+371625,stderr,received,'              ^^^^^^^^^^^^^^^^^^^^^^^'
+371625,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 381, in wait'
+371626,stderr,received,'    Keyboard.process_control_keys(event):'
+371626,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+371626,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 145, in process_control_keys'
+371627,stderr,received,'    cls.quit_control.call_functions(event_detected_function,'
+371627,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 63, in call_functions'
+371627,stderr,received,'    confirm = cls.end_function('
+371627,stderr,received,'              ^^^^^^^^^^^^^^^^^'
+371628,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\control\\_experiment_control.py", line 322, in end'
+371666,stderr,received,'    char = Keyboard().wait_char(["y", "n"], process_control_events=False,'
+371667,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+371668,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 482, in wait_char'
+371669,stderr,received,'    _internals.low_performance_sleep()'
+371669,stderr,received,'  File "C:\\Users\\20946\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\_internals.py", line 19, in low_performance_sleep'
+371708,stderr,received,'    sleep(0.0001)'
+371708,stderr,received,'KeyboardInterrupt'
+371726,Data,saved

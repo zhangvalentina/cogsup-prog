@@ -1,0 +1,25 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Sun Oct 19 2025 15:05:41
+#sha1: 24ad2b
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='zlr778', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1823,design,log,
+#design: #exp: Stroop
+#design: #dvn: block_cnt,trial_cnt,trial_type,word,color,RT,correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+1823,design,logged,
+1823,Experiment,started
+1871,Stimulus,presented,19
+3063,Keyboard,received,32,wait
+3064,Stimulus,presented,0
+3587,Stimulus,presented,2
+5710,Keyboard,received,114,wait
+5710,stderr,received,'Traceback (most recent call last):'
+5710,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-6\\Week-6\\Exercises\\stroop_balanced.py", line 104, in <module>'
+5711,stderr,received,'    run_trial(block, trial, word, color)'
+5711,stderr,received,'  File "C:\\Users\\20946\\CogSup\\Programming\\Assignments\\Week-6\\Week-6\\Exercises\\stroop_balanced.py", line 91, in run_trial'
+5712,stderr,received,"    exp.data.add([block_id, trial_id, 'color_identification',trial_type, word, color, rt, correct])"
+5712,stderr,received,'                                                             ^^^^^^^^^^'
+5712,stderr,received,"NameError: name 'trial_type' is not defined"
