@@ -17,3 +17,5 @@ Create a new script, stroop_balanced.py, that modifies stroop.py as follows:
 - have participants decide the color the onscreen word is written in
 - using the method you think is best, balance the design
 - extend the Stroop to 128 trials in total, divided into 8 equally-sized blocks
+
+exp.key.wait()
